@@ -17,15 +17,18 @@ class Main {
         case 1:
         {
         System.out.println(2*a+2*b);
+        break;
         }
         case 2:
         {
         int c = 2;
-        System.out.println(Math.PI*Math.pow(a, c)+Math.PI*Math.pow(b, c));   
+        System.out.println(Math.PI*Math.pow(a, c)+Math.PI*Math.pow(b, c));
+        break;
         }
         case 3:
         {
-         System.out.println((a*b)/2);   
+         System.out.println((a*b)/2);
+          break;
         }
         case 4:
         {
@@ -35,7 +38,8 @@ class Main {
         }
         else
         {
-        System.out.println(a/b);  
+        System.out.println(a/b);
+        break;
         }
         }  
       }
